@@ -17,8 +17,8 @@ A professional Discord server cloner CLI tool that allows you to clone roles, ch
 ## 🚀 Installation
 
 ```bash
-git clone https://github.com/NerdBlud/discord-server-cloner
-cd discord-server-cloner
+git clone https://github.com/NerdBlud/DiscordServerCloner.git
+cd DiscordServerCloner
 npm install
 ````
 
