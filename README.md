@@ -1,28 +1,36 @@
-# 🧱 Discord Server Cloner
+# Discord Server Cloner
 
-A professional Discord server cloner CLI tool that allows you to clone roles, channels, categories, emojis, and recent messages from one server to another.
+A command-line tool for cloning Discord server structure and selected content from one server to another. The tool supports cloning roles, channels, categories, emojis, and a limited number of recent messages.
 
-## ✨ Features
+---
 
-- 🎭 Clone roles, categories, and channels  
-- 😄 Clone emojis  
-- 📜 Clone recent messages (up to 50 per channel)  
-- ⏱ Handles rate limits gracefully  
-- 💻 Simple command-line interface  
+## Features
 
-## 🛠 Requirements
+* Clone roles, categories, and channels
+* Clone custom emojis
+* Clone recent messages (up to 50 per channel)
+* Built-in handling for Discord rate limits
+* Simple and interactive command-line interface
 
-- Node.js v18 or higher  
+---
 
-## 🚀 Installation
+## Requirements
+
+* Node.js v18 or higher
+
+---
+
+## Installation
 
 ```bash
 git clone https://github.com/NerdBlud/DiscordServerCloner.git
 cd DiscordServerCloner
 npm install
-````
+```
 
-## ⚡ Usage
+---
+
+## Usage
 
 Run the tool:
 
@@ -30,8 +38,10 @@ Run the tool:
 node server-cloner.js
 ```
 
-Follow the prompts:
+Follow the interactive prompts:
 
-1. 🔑 User token
-2. 📥 Source server ID
-3. 📤 Destination server ID
+1. User token
+2. Source server ID
+3. Destination server ID
+
+---
